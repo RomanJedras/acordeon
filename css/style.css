@@ -1,0 +1,13 @@
+/* line 1, sass/style.scss */ body { padding: 10px; }
+
+/* line 5, sass/style.scss */ .container { width: 400px; margin: 0 auto; }
+
+/* line 10, sass/style.scss */ section { padding: 10px; text-align: center; }
+
+/* line 15, sass/style.scss */ .accordion { border: 1px solid #bbb; }
+
+/* line 18, sass/style.scss */ .accordion h3 { background-color: #ddd; margin: 0; padding: 5px; border: 1px solid #bbb; border-bottom: none; cursor: pointer; }
+
+/* line 26, sass/style.scss */ .accordion h3 + div { height: 0; overflow: hidden; border: 1px solid #bbb; border-bottom: none; transition: height 0.5s; }
+
+/* line 35, sass/style.scss */ .accordion h3.active + div { height: 100px; overflow: auto; }
